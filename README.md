@@ -48,3 +48,19 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 ```
 
+# check the IP of the server
+```bash
+ip a
+```
+
+# firewall enabling of ssh
+## allow ssh
+```bash
+sudo ufw allow ssh
+```
+## enable firewall
+```bash
+sudo ufw enable
+```
+
+# connect via a remote machine
