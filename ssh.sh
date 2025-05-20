@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "the bash script to automate"
 echo "system update ho raha hai "
 sudo apt update
 
