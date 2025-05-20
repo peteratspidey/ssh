@@ -12,3 +12,8 @@ sudo systemctl enable ssh
 
 echo "starting the ssh"
 sudo systemctl start ssh
+
+echo "the statu of ssh is"
+sudo systemctl status ssh
+
+echo "
